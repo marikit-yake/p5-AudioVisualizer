@@ -19,6 +19,7 @@ function setup(){
     mic = new p5.AudioIn();
     mic.start();
 
+    soundFile.play();
 
     amplitude = new p5.Amplitude();
     amplitude.setInput(mic);
